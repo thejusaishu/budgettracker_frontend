@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api';
+const API_URL = 'https://budget-tracker-ygmt.onrender.com/api'  || 'http://localhost:3000/api';
 
 // Get token from localStorage
 function getToken() {
